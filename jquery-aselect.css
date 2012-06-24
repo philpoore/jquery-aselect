@@ -1,0 +1,15 @@
+/*
+********************************************
+				Nice Selects
+********************************************
+*/
+.jquery-aselect-wrap { position: relative; padding: 0 0 0 0px; width: 90px; height: 26px !important; background: url('select-item.png') -485px -128px no-repeat; color: #545454; margin: 0 !important; float: left; cursor: pointer;}
+.jquery-aselect-wrap:hover { background: url('select-item.png') -485px -154px no-repeat;}
+.jquery-aselect-wrap span { position: absolute;  width: 90px; left: 8px; height: 19px; padding: 4px 0 0 2px  !important; background: url('select-item.png') -403px -0px no-repeat; top: 2px; font-size: 11px; color: #545454 !important; cursor: pointer; line-height: 14px !important;  }
+.jquery-aselect-wrap:hover span { background: url('select-item.png') -403px -26px no-repeat; }
+.js div.jquery-aselect-wrap {position: relative;background: url('select-item.png') -484px -180px no-repeat;height: 26px;color: #545454;}
+.no-js #body div.jquery-aselect-wrap span {display: none;}
+.js #body div.jquery-aselect-wrap span {-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;position: absolute;left: 13px;top: 2px;right: 0;display: block;line-height: 11px;font-size: 11px;background: url('select-item.png') right -52px;height: 19px;text-overflow: ellipsis;padding: 6px 22px 0 10px;}
+.js div.jquery-aselect-wrap select {position: absolute;top: 4px;left: 7px;width: 113%;opacity: 0;filter: alpha(opacity=0);padding: 0;}
+.js div.jquery-aselect-wrap select.selectors {position: absolute;left: 16px;top: 3px; font-size: 11px;border: 0;width: 216px;height: 21px;}
+.jquery-aselect { opacity: 0; filter: alpha(opacity = 0); }
