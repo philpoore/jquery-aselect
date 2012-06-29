@@ -19,7 +19,7 @@
 	<option>myavlueE</option>
 </select>
 
-<select class="fancy">
+<select class="large">
 	<option>myavlueA</option>
 	<option>myavlueB</option>
 	<option>myavlueC</option>
@@ -27,7 +27,7 @@
 	<option>myavlueE</option>
 </select>
 
-<select>
+<select class="small">
 	<option>myavlueA</option>
 	<option>myavlueB</option>
 	<option>myavlueC</option>
@@ -35,7 +35,7 @@
 	<option>myavlueE</option>
 </select>
 
-<select>
+<select class="medium">
 	<option>myavlueA</option>
 	<option>myavlueB</option>
 	<option>myavlueC</option>
@@ -43,6 +43,13 @@
 	<option>myavlueE</option>
 </select>
 
-<script>$(function (){$('select.fancy').aselect({width:'200px'});});</script>
+<script>
+	$(function (){
+		$('select.fancy').aselect({width:'200px'});
+		$('select.large').aselect(); //This large is styled through the CSS
+		$('select.medium').aselect(); //This medium is styled through the CSS
+		$('select.small').aselect(); //This small is styled through the CSS
+	});
+</script>
 </body>
 </html>
